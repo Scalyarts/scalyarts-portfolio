@@ -1,9 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Card, CardContent } from "./ui/card";
 import { Mail, Send, Globe, Briefcase } from "lucide-react";
 
-// Твои проекты (замени пути к картинкам, если нужно)
+// Проекты
 const projects = [
   {
     title: "Twils ETAN (диван)",
@@ -37,7 +36,7 @@ const projects = [
   },
 ];
 
-// Ссылки на соцсети
+// Соцсети и ссылки
 const socials = [
   { icon: <Briefcase className="w-5 h-5" />, href: "https://kwork.ru/user/scalyarts" },
   { icon: <Send className="w-5 h-5" />, href: "https://t.me/Scalyarts" },
@@ -102,7 +101,7 @@ export default function PortfolioSite() {
         >
           <h3 className="text-3xl font-semibold mb-4 text-white">Привет! Я ScalyArts 👋</h3>
           <p className="mb-4 text-gray-300">
-            3D‑художник, специализуюсь на моделировании мебели и интерьерных визуализациях, близких к фотореализму. Работаю в 3ds Max + Corona Render, Marvelous Designer, Adobe Photoshop.
+            3D‑художник, специализируюсь на моделировании мебели и интерьерных визуализациях, близких к фотореализму. Работаю в 3ds Max + Corona Render, Marvelous Designer, Adobe Photoshop.
           </p>
           <p className="text-gray-300">
             Сотрудничаю с дизайнерами, архитекторами и студиями CG, создавая реалистичные сцены и оптимизированные low/high‑poly модели для рендеров, AR/VR и игровых движков.
@@ -125,13 +124,13 @@ export default function PortfolioSite() {
                 viewport={{ once: true }}
                 key={p.title}
               >
-                <Card className="overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 bg-slate-900">
+                <div className="overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300 bg-slate-900">
                   <img src={p.thumb} alt={p.title} className="w-full h-48 object-cover" />
-                  <CardContent className="p-4">
+                  <div className="p-4">
                     <h4 className="font-medium text-lg mb-2 text-red-400">{p.title}</h4>
                     <p className="text-sm text-gray-400">{p.description}</p>
-                  </CardContent>
-                </Card>
+                  </div>
+                </div>
               </motion.div>
             ))}
           </div>
