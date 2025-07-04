@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "./ui/card";
 import { Mail, Send, Globe, Briefcase } from "lucide-react";
 
 // Твои проекты (замени пути к картинкам, если нужно)
