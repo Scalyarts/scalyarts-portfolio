@@ -1,5 +1,4 @@
-import Head from 'next/head'
-import PortfolioSite from '../components/PortfolioSite'
+import PortfolioSite from '../components/PortfolioSite';
 
 export default function Home() {
   return (
