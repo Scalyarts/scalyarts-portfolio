@@ -6,32 +6,32 @@ import { Mail, Send, Globe, Briefcase } from "lucide-react";
 const projects = [
   {
     title: "Twils ETAN (диван)",
-    thumb: "/images/twils-etan.jpg",
+    thumb: "/images/twils-etan.webp",
     description: "Фотореалистичная визуализация дивана в интерьере. Corona Render + постобработка."
   },
   {
     title: "Флетхаус кухня/гостиная",
-    thumb: "/images/flethouse.jpg",
+    thumb: "/images/flethouse.webp",
     description: "Визуализация современного жилого пространства: 3ds Max + Corona."
   },
   {
     title: "Гостиничный номер + санузел",
-    thumb: "/images/hotel-room.jpg",
+    thumb: "/images/hotel-room.webp",
     description: "Интерьер коммерческого типа с учётом ТЗ. Текстуры + свет."
   },
   {
     title: "Пример визуализации мебели (мягкая группа)",
-    thumb: "/images/sofa-group.jpg",
+    thumb: "/images/sofa-group.webp",
     description: "Смоделирована и визуализирована мягкая мебель. Marvelous Designer + Corona."
   },
   {
     title: "Визуализация кухонного гарнитура",
-    thumb: "/images/kitchen-set.jpg",
+    thumb: "/images/kitchen-set.webp",
     description: "Модель под заказ. Все материалы и освещение проработаны в Corona Render."
   },
   {
     title: "Сцена спальни",
-    thumb: "/images/bedroom-scene.jpg",
+    thumb: "/images/bedroom-scene.webp",
     description: "Фотореализм: моделинг + свет + текстуры."
   },
 ];
@@ -74,10 +74,10 @@ export default function PortfolioSite() {
           className="max-w-6xl mx-auto px-4 pt-20 pb-32 text-center"
         >
           <h2 className="text-4xl sm:text-5xl font-extrabold leading-tight mb-6 text-white">
-            Фотореалистичная 3D‑мебель & интерьеры
+            Фотореалистичная 3D‑мебель & интерьер
           </h2>
           <p className="text-lg sm:text-xl max-w-2xl mx-auto text-gray-300">
-            Создаю 3D‑модели мебели и визуализации жилых / коммерческих помещений по&nbsp;вашему ТЗ.
+            Создаю 3D‑модели мебели и визуализации жилых / коммерческих помещений по вашему ТЗ.
           </p>
         </motion.div>
       </section>
@@ -85,7 +85,7 @@ export default function PortfolioSite() {
       {/* About */}
       <section id="about" className="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-12">
         <motion.img
-          src="/images/profile-placeholder.jpg"
+          src="/images/profile-placeholder.webp"
           alt="ScalyArts portrait"
           className="w-full h-64 object-cover rounded-2xl shadow-lg"
           initial={{ x: -40, opacity: 0 }}
@@ -101,10 +101,10 @@ export default function PortfolioSite() {
         >
           <h3 className="text-3xl font-semibold mb-4 text-white">Привет! Я ScalyArts 👋</h3>
           <p className="mb-4 text-gray-300">
-            3D‑художник, специализируюсь на моделировании мебели и интерьерных визуализациях, близких к фотореализму. Работаю в 3ds Max + Corona Render, Marvelous Designer, Adobe Photoshop.
+            3D‑художник, специализируюсь на моделировании мебели и интерьерных визуализациях, близких к фотореализму. Работаю в 3ds Max + Corona Render, Marvelous Designer, Adobe Photoshop.
           </p>
           <p className="text-gray-300">
-            Сотрудничаю с дизайнерами, архитекторами и студиями CG, создавая реалистичные сцены и оптимизированные low/high‑poly модели для рендеров, AR/VR и игровых движков.
+            Сотрудничаю с дизайнерами, архитекторами и студиями CG, создавая реалистичные сцены и оптимизированные low/high‑poly модели для рендеров, AR/VR и игровых движков.
           </p>
         </motion.div>
       </section>
