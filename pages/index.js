@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import dynamic from 'next/dynamic'
+import Head from 'next/head';
+import dynamic from 'next/dynamic';
 
-const PortfolioSite = dynamic(() => import('../components/PortfolioSite'), { ssr: false })
+const PortfolioSite = dynamic(() => import('../components/PortfolioSite'), { ssr: false });
 
 export default function Home() {
   return (
@@ -12,5 +12,5 @@ export default function Home() {
       </Head>
       <PortfolioSite />
     </>
-  )
+  );
 }
